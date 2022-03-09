@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  wpscan:
+    image: "wpscanteam/wpscan"
+    volumes:
+      - ./output:/wpscan/output
+    environment:
+      - WPSCAN_API_TOKEN=${WPSCAN_API_TOKEN}
