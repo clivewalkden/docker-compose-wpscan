@@ -1,4 +1,4 @@
-# SOZO WP Scan
+# WP Scan in docker-compose
 
 ### Setup
 Create a `.env` file from the `.env.sample` and add your WP Scan API Key.
